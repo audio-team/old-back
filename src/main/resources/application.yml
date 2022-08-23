@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev, local
+  jpa:
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+server:
+  error:
+    include-stacktrace: never
+    include-message: never
+    

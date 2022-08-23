@@ -1,0 +1,15 @@
+# Products
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+
+# Mac OS
+.DS_Store
+
+# Spring
+application-local.yml
+/local/
